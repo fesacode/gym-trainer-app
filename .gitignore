@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.env
+
+# Flutter / Dart
+flutter_app/.dart_tool/
+flutter_app/.packages
+flutter_app/build/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.metadata
+flutter_app/.env
+
+# Android / iOS / macOS ephemeral build outputs
+flutter_app/android/.gradle/
+flutter_app/ios/Pods/
+flutter_app/macos/Pods/
+
+# Misc
+*.log
